@@ -24,7 +24,26 @@ body
     font-family: Roboto
 
 main
-    .header-container
-        .logo
+    header
+        background: $dark-bg
+        .header-container
+            display: flex
+            justify-content: space-around
+            align-items: center
+            padding: 10px
+            .logo
+                color: $header-logo--color
+                font-size: $header-logo--text
+                font-weight: bold
+            .list
+                display: flex
+                gap: 16px
+                list-style: none
+                font-size: $hero-secondary--text
+                color: $hero-secondary--color
+                padding: 0
+                margin: 0
+                &__item
+        
 
 
