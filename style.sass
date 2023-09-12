@@ -20,6 +20,11 @@ $quote-text--color: #1F2937
 @font-face 
     font-family: 'Roboto', sans-serif
 
+* 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
 body
     font-family: Roboto
 
@@ -41,9 +46,34 @@ main
                 list-style: none
                 font-size: $hero-secondary--text
                 color: $hero-secondary--color
-                padding: 0
-                margin: 0
-                &__item
+        .hero
+            display: flex
+            justify-content: center
+            padding: 68px
+            gap: 30px
+            
+            &__left
+                max-width: 450px
+                h1
+                    font-size: $hero-main--text
+                    font-weight: $hero-main--text-weight
+                    color: $hero-main--color
+                    line-height: 3rem
+                .hero-description
+                    font-size: $hero-secondary--text
+                    color: $hero-secondary--color
+                .cta__signup
+                    border: 0
+                    color: white
+                    padding: 6px 24px
+                    border-radius: 6px
+                    font-weight: bold
+                    background: $button
+                    margin-block: 6px
+            &__img
+                width: 350px
+                height: 100%
+                
         
 
 

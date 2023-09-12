@@ -1,6 +1,12 @@
 @font-face {
   font-family: "Roboto", sans-serif;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Roboto;
 }
@@ -25,6 +31,36 @@ main header .header-container .list {
   list-style: none;
   font-size: 18px;
   color: #E5E7EB;
-  padding: 0;
-  margin: 0;
+}
+main header .hero {
+  display: flex;
+  justify-content: center;
+  padding: 68px;
+  gap: 30px;
+}
+main header .hero__left {
+  max-width: 450px;
+}
+main header .hero__left h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+  line-height: 3rem;
+}
+main header .hero__left .hero-description {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+main header .hero__left .cta__signup {
+  border: 0;
+  color: white;
+  padding: 6px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  background: #3882F6;
+  margin-block: 6px;
+}
+main header .hero__img {
+  width: 350px;
+  height: 100%;
 }
