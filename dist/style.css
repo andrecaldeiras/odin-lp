@@ -112,3 +112,28 @@ main .quote__author {
   position: absolute;
   right: 20%;
 }
+main .cta {
+  background: #3882F6;
+  color: white;
+  margin: 8% 16%;
+  padding: 3% 7%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+main .cta__title {
+  font-size: 24px;
+  font-weight: 800;
+}
+main .cta__button {
+  font-size: 18px;
+  width: 120px;
+  height: 35px;
+  background: #3882F6;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  font-weight: 700;
+}
