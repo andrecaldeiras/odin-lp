@@ -137,3 +137,10 @@ main .cta__button {
   color: white;
   font-weight: 700;
 }
+
+footer {
+  background: #1F2937;
+  padding: 24px;
+  color: white;
+  text-align: center;
+}
