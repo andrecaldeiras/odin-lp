@@ -1,4 +1,4 @@
-This is my second project while doing the odin project! I tried using pug and sass on this one since I was already familiar with those languages and felt like it was a good chance to apply them.
+This is my second project while doing the odin project! I tried using pug and sass on this one since I was already familiar with those languages and felt like it was a good chance to apply them. The site has no mobile mode since it was not meant to be made mobile-first in this odin lesson.
 
 ## Table of contents
 
