@@ -34,12 +34,15 @@ main header .header-container .list {
 }
 main header .hero {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1150px;
+  margin: 0 auto;
   padding: 68px;
   gap: 30px;
 }
 main header .hero__left {
-  max-width: 450px;
+  max-width: 550px;
 }
 main header .hero__left h1 {
   font-size: 48px;
@@ -63,4 +66,49 @@ main header .hero__left .cta__signup {
 main header .hero__img {
   width: 350px;
   height: 100%;
+}
+main .random-info {
+  text-align: center;
+  width: 100%;
+  max-width: 1150px;
+  padding: 36px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+main .random-info .info__title {
+  color: #1F2937;
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+main .random-info .card__container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 36px;
+}
+main .random-info .card__container .card__image {
+  border: 4px solid #3882F6;
+  border-radius: 16px;
+  width: 140px;
+  height: 140px;
+}
+main .random-info .card__container .card__text {
+  font-size: 18px;
+  color: #1F2937;
+}
+main .quote {
+  background: #E5E7EB;
+  position: relative;
+  width: 100%;
+  padding: 10%;
+}
+main .quote__text {
+  font-size: 36px;
+  font-weight: 300;
+}
+main .quote__author {
+  font-size: 18px;
+  color: #1F2937;
+  position: absolute;
+  right: 20%;
 }
